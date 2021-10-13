@@ -1,4 +1,4 @@
-function checkNumberOrString(variable) {
+function checkNumberString(variable) {
   if (Number.isNaN(variable)) {
     return undefined;
   }
@@ -11,4 +11,4 @@ function checkNumberOrString(variable) {
   return undefined;
 }
 
-module.exports = checkNumberOrString;
+module.exports = checkNumberString;

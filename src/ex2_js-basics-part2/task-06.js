@@ -1,4 +1,4 @@
-function checkNaturalNumber(number) {
+function checkNumberNatural(number) {
   if (number >= 1000) {
     return "Данные неверны";
   }
@@ -10,4 +10,4 @@ function checkNaturalNumber(number) {
   }
   return `Число ${number} - составное число`;
 }
-module.exports = checkNaturalNumber;
+module.exports = checkNumberNatural;

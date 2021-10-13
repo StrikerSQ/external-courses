@@ -1,4 +1,4 @@
-function a(arr) {
+function achekingArrayElements(arr) {
   for (i = 0; i < arr.length; i++) {
     console.log(arr[i]);
     for (j = 1; j < arr.length - 1; j++) {

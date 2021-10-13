@@ -1,8 +1,8 @@
 function checkArray(arr) {
   for (i = 0; i < arr.length; i++) {
     console.log(`${arr[key]}`);
-    console.log(arr.length);
   }
+  console.log(arr.length);
   return;
 }
 

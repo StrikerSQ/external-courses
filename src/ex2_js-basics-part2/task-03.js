@@ -1,4 +1,4 @@
-function countEvenOdd(arr) {
+function countOddEven(arr) {
   let countOdd = 0,
     countEven = 0,
     countZero = 0,
@@ -18,4 +18,4 @@ function countEvenOdd(arr) {
   return arrayCountedNumber;
 }
 
-module.exports = countEvenOdd;
+module.exports = countOddEven;
