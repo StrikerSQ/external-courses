@@ -3,7 +3,7 @@ function checkProp(str, obj) {
     if (obj.hasOwnProperty(str)) {
       continue;
     } else {
-      obj[str] = `'new'`;
+      obj[str] = "new";
     }
   }
   return obj;
