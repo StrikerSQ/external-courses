@@ -1,0 +1,18 @@
+table {
+    border: 1px solid black;
+}
+
+.dark {
+    background: #e3eaf3;
+}
+.white {
+   background: #f2f6fa; 
+}
+
+.dark:hover, .white:hover  {
+    background-color: #e2e5e9;
+}
+
+table {
+    font-family: "Athabasca", Arial, Helvetica, sans-serif;
+}
