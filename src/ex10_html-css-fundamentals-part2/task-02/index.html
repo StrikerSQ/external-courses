@@ -25,7 +25,9 @@
         <input type="radio" name="day" value="female" /> female</label
       >
 
-      <label>Age <input type="text" /></label>
+      <label
+        >Age <input type="number" min="18" max="101" maxlength="3"
+      /></label>
       <label for=""
         >Country of residence
         <select name="country">
@@ -54,7 +56,7 @@
         </select></label
       >
       <label for=""
-        >Salary <input type="range" min="18" max="101" step="2" value="6" />
+        >Salary <input type="range" min="18" max="101" step="1" value="0" />
       </label>
       <textarea rows="10" cols="50" id="content" name="content">
 Tell us about yourself...</textarea
@@ -66,8 +68,9 @@ Tell us about yourself...</textarea
       <label for="Email">Email <input type="text" name="" id="Email" /> </label>
       <label for="Phone">Phone <input type="text" name="" id="Phone" /> </label>
     </fieldset>
-    <label for="userPassword">Пароль:</label>
-    <input id="userPassword" type="password" required />
+    <label for="userPassword"
+      >Пароль:<input id="userPassword" type="password" required
+    /></label>
     <div>
       <input class="foot" type="reset" /> <input class="foot" type="submit" />
     </div>
