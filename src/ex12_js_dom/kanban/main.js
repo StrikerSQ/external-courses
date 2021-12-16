@@ -11,7 +11,7 @@ function closeMenu() {
 function createSubMenu() {
   if (!document.querySelector('.user-submenu')) {
     const ul = document.createElement('ul');
-    arrow.className += ' reflected-arrow';
+    arrow.classList.add('reflected-arrow');
     ul.className = 'user-submenu';
     userMenu.append(ul);
     for (let i = 0; i < 3; i += 1) {
