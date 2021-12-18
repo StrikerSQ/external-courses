@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    width: 247px; height:59px; float:none; margin:100px auto; font-family:Arial, Helvetica, sans-serif; font-size:25px; font-weight:bold; color:#555555; text-align:center; text-transform:uppercase; text-decoration:none; line-height:59px; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e3e3e3+0,d2d2d2+50,c6c6c6+51,adadad+100 *
+    background: #e3e3e3;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #e3e3e3 0%, #d2d2d2 50%, #c6c6c6 51%, #adadad 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e3e3e3 0%, #d2d2d2 50%, #c6c6c6 51%, #adadad 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e3e3e3 0%, #d2d2d2 50%, #c6c6c6 51%, #adadad 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#e3e3e3', endColorstr='#adadad', GradientType=0);
+    /* IE6-9 */
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 1px 3px 1px #777777;
+    box-shadow: 0 1px 3px 1px #777777, 0 0 0 10px #cbcbcb, 0 0 0 12px #fff, 0 0 0 14px #000;
+    text-shadow: 0 1px 0 #dedede;
+    position: relative;
+    display: block;
+  }
+  a:before,
+  a:after {
+    display:inline-block;
+    font:normal normal normal 14px/1 FontAwesome;
+    font-size:inherit;
+    text-rendering:auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #888;
+  }
+  
+  
+  a:before {
+    content:"\f005";
+    margin-right: 10px;
+  }
+  a:after {
+    content:"\f005";
+    margin-left: 10px;
+  }
