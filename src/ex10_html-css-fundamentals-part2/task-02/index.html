@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <fieldset>
+      <legend>Personal data</legend>
+      <p>
+        <label> Surname <input type="text" name="Surname" /> </label>
+      </p>
+      <p>
+        <label>
+          First Name
+          <input type="text" name="FirstName" />
+        </label>
+      </p>
+      <label> Middle Name <input type="text" name="MiddleName" /> </label>
+      <label for=""
+        >You are <input type="radio" name="day" value="male" checked /> male
+        <input type="radio" name="day" value="female" /> female</label
+      >
+
+      <label
+        >Age <input type="number" min="18" max="101" maxlength="3"
+      /></label>
+      <label for=""
+        >Country of residence
+        <select name="country">
+          <option value="" selected></option></select
+      ></label>
+      <label for=""
+        >City <input type="checkbox" name="Ryazan" id="" />Ryazan
+        <input type="checkbox" name="Moscow" id="" />Moscow</label
+      >
+      <label for="">Photography <input type="file" name="file" id="" /> </label>
+      <hr />
+      <label for=""
+        >Title
+        <select name="day" multiple>
+          <optgroup label="Technologies">
+            <option value="">Web Master</option>
+            <option value="">Database Administrator</option>
+            <option value="">Computer-aided design</option>
+          </optgroup>
+          <optgroup label="Finance">
+            <option value="">Economic Planing</option>
+            <option value="">Menedgment acountingr</option>
+            <option value="">Web Master</option>
+            <option value="">Budgeting and planning</option>
+          </optgroup>
+        </select></label
+      >
+      <label for=""
+        >Salary <input type="range" min="18" max="101" step="1" value="0" />
+      </label>
+      <textarea rows="10" cols="50" id="content" name="content">
+Tell us about yourself...</textarea
+      >
+    </fieldset>
+    <fieldset>
+      <legend>Contact Information</legend>
+      <label for="Site">Site <input type="text" name="" id="Site" /> </label>
+      <label for="Email">Email <input type="text" name="" id="Email" /> </label>
+      <label for="Phone">Phone <input type="text" name="" id="Phone" /> </label>
+    </fieldset>
+    <label for="userPassword"
+      >Пароль:<input id="userPassword" type="password" required
+    /></label>
+    <div>
+      <input class="foot" type="reset" /> <input class="foot" type="submit" />
+    </div>
+  </body>
+</html>
