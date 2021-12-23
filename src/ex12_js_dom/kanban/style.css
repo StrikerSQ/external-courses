@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+  height: 100%;
+}
+header,
+footer {
+  height: 55px;
+  width: 100%;
+  background: #0067a3;
+}
+header {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+.app-logo {
+  position: absolute;
+  width: 384px;
+  height: 45px;
+  left: 14px;
+  top: 5px;
+}
+.logo {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+}
+.XMLID-31 {
+  position: absolute;
+  left: 17.19%;
+  right: 67.19%;
+  top: 64.84%;
+  bottom: 19.53%;
+  background: #0067a3;
+  border-radius: 50%;
+  border:1px solid white;
+}
+.XMLID-32 {
+  position: absolute;
+  width: 7.03px;
+  height: 7.03px;
+  left: 7.73px;
+  top: 29.18px;
+  background: #ffffff;
+}
+.XMLID-35 {
+  position: absolute;
+  left: 17.19%;
+  right: 67.19%;
+  top: 42.19%;
+  bottom: 42.19%;
+  /* background: #0067a3;
+  border-radius: 50%;
+  border:1px solid white; */
+}
+.XMLID-36 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #0067a3;
+  border-radius: 50%;
+  border:1px solid white;
+}
+.XMLID-39 {
+  position: absolute;
+  left: 17.19%;
+  right: 67.19%;
+  top: 19.53%;
+  bottom: 64.84%;
+  background: #0067a3;
+  border-radius: 50%;
+  border:1px solid white;
+}
+.XMLID-40 {
+  position: absolute;
+  left: 17.19%;
+  right: 67.19%;
+  top: 19.53%;
+  bottom: 64.84%;
+  background: #ffffff;
+}
+.XMLID-43 {
+  position: absolute;
+  left: 39.06%;
+  right: 17.19%;
+  top: 71.09%;
+  bottom: 25.78%;
+  background: #ffffff;
+}
+.XMLID-44 {
+  position: absolute;
+  left: 39.06%;
+  right: 17.19%;
+  top: 48.44%;
+  bottom: 48.44%;
+  background: #ffffff;
+}
+.XMLID-45 {
+  position: absolute;
+  left: 39.06%;
+  right: 17.19%;
+  top: 25.78%;
+  bottom: 71.09%;
+  background: #ffffff;
+}
+.logo-text {
+  position: absolute;
+  width: 331px;
+  height: 26px;
+  left: 53px;
+  top: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33px;
+  color: #ffffff;
+}
+.create-list {
+  position: absolute;
+  width: 181px;
+  height: 33px;
+  left: 858px;
+  top: 11px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+.add-list {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 8px;
+  top: 3px;
+}
+.list-text {
+  position: absolute;
+  width: 140px;
+  height: 18px;
+  left: 44px;
+  top: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.user-menu {
+  position: absolute;
+  width: 64px;
+  height: 40px;
+  left: 1088px;
+  top: 7px;
+}
+.user-avatar {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+}
+.avatar {
+  position: absolute;
+  height: 35px;
+  width: 28px;
+  left: 6px;
+  top: 4px;
+  z-index: 2;
+}
+.ring {
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  top: 2%;
+  bottom: 2%;
+  border: 2px solid #ffffff;
+}
+.ellipse {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.square {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+.arrow-down {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 40px;
+  top: 8px;
+}
+.arrow {
+  position: absolute;
+  left: 6px;
+  top: 7px;
+}
+.reflected-arrow {
+  transform: rotate(180deg);
+}
+
+.user-submenu {
+  width: 120px;
+  height: 96px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 120%;
+  right: 0px;
+  background: rgb(177, 193, 236);
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+}
+.user-submenu li {
+  height: 30px;
+  width: 100%;
+  background: #0067a3;
+  display: block;
+  border: 0;
+  border-radius: 5px;
+  white-space: nowrap;
+  color: white;
+  padding: 0;
+  margin-top: 2px;
+}
+.user-submenu li:hover, .user-submenu li:focus {
+  opacity: 0.8;
+  background: rgb(177, 193, 236);
+}
+footer {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  left: 0px;
+  top: 645px;
+  background: #0067a3;
+}
+.text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.active {
+  position: absolute;
+  width: 138px;
+  height: 21px;
+  left: 67px;
+  top: 17px;
+}
+.finish {
+  position: absolute;
+  width: 159px;
+  height: 21px;
+  left: 241px;
+  top: 17px;
+}
+.board {
+  position: absolute;
+  width: 279px;
+  height: 21px;
+  right: 30px;
+  top: 17px;
+}
+
+
+
